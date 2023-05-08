@@ -1,0 +1,29 @@
+#marcacao{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+#marcacao, .row{
+    --bs-gutter-x: 6rem !important;
+    
+}
+.maracacao-texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--rosa);
+}
+.marcacao-select{
+    display: grid;
+    place-items: center;
+}
+.form-select{
+    color: var(--verde) !important;
+}
+.cor-rosa-2{
+    background-color: var(--rosa) !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+}

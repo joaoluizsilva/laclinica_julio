@@ -1,0 +1,30 @@
+#youtube{
+    width: 99vw;
+    margin-left: -6rem !important;
+    height: 500px;
+    background-color: var(--verde);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.youtube-texto{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    color: #FFFFFF;
+
+}
+.youtube-texto-2{
+    width: 400px;
+    height: 50px;
+
+}
+.play-rosa{
+    background-color: var(--rosa);
+    padding: 1px 8px 6px 8px;
+    border-radius: 8px;
+}
+.youtube-video{
+    display: grid;
+    place-items: center ;
+}

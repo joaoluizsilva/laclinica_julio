@@ -1,0 +1,17 @@
+#navigation-health{
+    width: 100%;
+    height: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:-53px;
+}
+.card-health{
+    width: 260px;
+    height: 108px;
+    border: 1px transparent solid;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
